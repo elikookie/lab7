@@ -1,0 +1,9 @@
+<section class="listing">
+  <img
+    class="listing-photo"
+    [src]="catListing.photo"
+    alt="Exterior photo of {{ catListing.name }}"
+    crossorigin
+  />
+  <h2 class="listing-heading">{{ catListing.name }} - {{ catListing.color }} {{ catListing.pattern }}</h2>
+  <a class="listing-link" [routerLink]="['/details', catListing.id]">Learn More</a>

@@ -1,0 +1,41 @@
+.listing {
+    padding: 1rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 242, 234);
+    border-radius: 25px;
+    border: solid rgb(133, 104, 66) 2px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.listing-photo {
+    width: 15rem;
+    height: 17rem;
+    border: solid rgb(135, 92, 47) 2px;
+    object-fit: cover;
+}
+
+.listing-heading {
+    color: rgb(149, 121, 84);
+}
+
+.listing-info {
+    color: rgb(91, 74, 51);
+}
+
+.listing-link {
+    background-color: rgb(149, 121, 84);
+    text-decoration: none;
+    border-radius: 25px;
+    border: solid rgb(246, 235, 220) 2px;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.listing-button:hover{
+    background-color: rgb(212, 179, 134);
+}
